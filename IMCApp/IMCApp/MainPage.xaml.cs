@@ -373,6 +373,9 @@ namespace IMCApp
                     }
                 }
             }
+
+            lblIMC.IsVisible = true;
+            lblDiagnostico.IsVisible = true;
         }
 
         public void Limpar(object sender, EventArgs args)
